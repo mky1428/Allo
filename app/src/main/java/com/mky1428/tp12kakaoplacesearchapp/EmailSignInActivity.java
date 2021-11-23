@@ -75,6 +75,8 @@ public class EmailSignInActivity extends AppCompatActivity {
                 new AlertDialog.Builder(EmailSignInActivity.this).setMessage("이메일과 비밀번호를 다시 확인해주시기 바랍니다").show();
                 etEmail.requestFocus();
                 etEmail.selectAll();
+
+                //깃헙 커밋푸쉬용 주석
             }
         });
     }
