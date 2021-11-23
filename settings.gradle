@@ -1,0 +1,2 @@
+rootProject.name = "TP12KaKaoPlaceSearchApp"
+include ':app'

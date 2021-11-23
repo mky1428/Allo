@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/choice_wc"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_wc_24"
+            android:background="@drawable/bg_choice_select"
+            android:padding="4dp"
+            android:layout_margin="8dp"
+            app:tint="@color/black"
+            android:onClick="clickChoice"
+            />
+
+        <ImageView
+            android:id="@+id/choice_movie"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_local_movies_24"
+            android:background="@drawable/bg_choice"
+            android:padding="4dp"
+            app:tint="@color/black"
+            android:layout_margin="8dp"
+            android:onClick="clickChoice"
+            />
+
+        <ImageView
+            android:id="@+id/choice_gas_station"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_local_gas_station_24"
+            android:background="@drawable/bg_choice"
+            android:padding="4dp"
+            android:layout_margin="8dp"
+            app:tint="@color/black"
+            android:onClick="clickChoice"
+            />
+
+        <ImageView
+            android:id="@+id/choice_ev_station"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_ev_station_24"
+            android:background="@drawable/bg_choice"
+            android:padding="4dp"
+            android:layout_margin="8dp"
+            app:tint="@color/black"
+            android:onClick="clickChoice"
+            />
+
+        <ImageView
+            android:id="@+id/choice_drugstore"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_local_pharmacy_24"
+            android:background="@drawable/bg_choice"
+            android:padding="4dp"
+            app:tint="@color/black"
+            android:layout_margin="8dp"
+            android:onClick="clickChoice"
+            />
+
+        <ImageView
+            android:id="@+id/choice_restaurant"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_food_bank_24"
+            android:background="@drawable/bg_choice"
+            android:padding="4dp"
+            app:tint="@color/black"
+            android:layout_margin="8dp"
+            android:onClick="clickChoice"
+            />
+
+        <ImageView
+            android:id="@+id/choice_mart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_store_24"
+            android:background="@drawable/bg_choice"
+            android:padding="4dp"
+            android:layout_margin="8dp"
+            app:tint="@color/black"
+            android:onClick="clickChoice"
+            />
+
+        <ImageView
+            android:id="@+id/choice_convenience_store"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_local_convenience_store_24"
+            android:background="@drawable/bg_choice"
+            android:padding="4dp"
+            android:layout_margin="8dp"
+            app:tint="@color/black"
+            android:onClick="clickChoice"
+            />
+
+        <ImageView
+            android:id="@+id/choice_car_center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_directions_car_24"
+            android:background="@drawable/bg_choice"
+            android:padding="4dp"
+            app:tint="@color/black"
+            android:layout_margin="8dp"
+            android:onClick="clickChoice"
+            />
+
+        <ImageView
+            android:id="@+id/choice_bookstore"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_menu_book_24"
+            android:background="@drawable/bg_choice"
+            android:padding="4dp"
+            android:layout_margin="8dp"
+            app:tint="@color/black"
+            android:onClick="clickChoice"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

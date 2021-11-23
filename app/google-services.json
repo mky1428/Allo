@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620370144289",
+    "project_id": "allo-e0ac9",
+    "storage_bucket": "allo-e0ac9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620370144289:android:aea9eba346d1fcdb388760",
+        "android_client_info": {
+          "package_name": "com.mky1428.tp12kakaoplacesearchapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620370144289-6t6o070cmk66hjclujvmak5j9hpetv2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIOYMo7DwIOzqLI-SbQXGFbxDGJ6l-sxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620370144289-6t6o070cmk66hjclujvmak5j9hpetv2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
