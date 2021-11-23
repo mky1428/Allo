@@ -76,7 +76,7 @@ public class EmailSignInActivity extends AppCompatActivity {
                 etEmail.requestFocus();
                 etEmail.selectAll();
 
-                //깃헙 커밋푸쉬용 주석
+
             }
         });
     }

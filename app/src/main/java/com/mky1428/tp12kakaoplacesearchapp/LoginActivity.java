@@ -96,7 +96,7 @@ public class LoginActivity extends AppCompatActivity {
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestId().requestEmail().build();
         
         GoogleSignInClient googleClient = GoogleSignIn.getClient(this, gso);
-        //구글 로그인화면(액티비티)를 실행하는 Intent 객체
+        //구글 로그인화면(액티비티)를 실행하는 Intent 객체.
         Intent intent = googleClient.getSignInIntent();
         startActivityForResult(intent, 100);
         
