@@ -64,7 +64,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
-        //먼저 같은 이메일이 있는지 확인
+        //먼저 같은 이메일이 있는지 확인.
         db.collection("emailUsers").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
             @Override
             public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
